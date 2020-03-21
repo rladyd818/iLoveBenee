@@ -5,4 +5,4 @@ index 2.html
 assets/js/breakpoints.min.js
 assets/js/browser.min.js
 assets/js/jquery.min.js
-node_modules/.cache/terser-webpack-plugin/content-v2/sha512/
+node_modules/.cache/terser-webpack-plugin/

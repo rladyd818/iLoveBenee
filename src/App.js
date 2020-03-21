@@ -1,10 +1,8 @@
 import Home from './Home';
 
-
 class App {
     data = null;
     $target = null;
-
 
     constructor($target) {
         this.$target = $target;
@@ -29,6 +27,7 @@ class App {
             });
         },2000)
         console.log('app Render');
+
     }
 
     render() {

@@ -1,15 +1,12 @@
 
-
 class Home {
     data = null;
     $Home = null;
     onClick = null;
 
     constructor({$target,data}) {
-        console.log('create Home');
         this.$Home = document.createElement('div');
         this.$Home.className = 'Home';
-
 
         $target.appendChild(this.$Home);
         this.setState(data);
