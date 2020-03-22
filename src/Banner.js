@@ -5,7 +5,6 @@ class Banner {
     constructor($inner,{$target, data}) {
         this.$banner = document.createElement("section");
         this.$banner.id = "banner";
-        console.log(this.$banner);
         $inner.appendChild(this.$banner);
         console.log("create banner");
         this.render();

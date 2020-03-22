@@ -8,8 +8,10 @@ class SidebarInner {
     $sidebarInner = null;
     data = null;
 
-    constructor({$target, data}) {
-        this.$sidebarInner = $target.firstElementChild;
+    constructor($sidebar, {$target, data}) {
+        this.$sidebarInner = document.createElement('div');
+        this.$sidebarInner.className = 'inner';
+        $sidebar.appendChild(this.$sidebarInner);
         this.data = data;
 
         this.search = new Search (

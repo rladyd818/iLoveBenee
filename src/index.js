@@ -1,7 +1,3 @@
-import Main from './Main';
-import Sidebar from './Sidebar';
-//import App from "./App";
+import Wrapper from './Wrapper';
 
-new Main(document.getElementById('main'));
-//new App(document.getElementById('App'));
-new Sidebar(document.getElementById('sidebar'));
+new Wrapper(document.getElementById('wrapper'));

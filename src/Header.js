@@ -19,7 +19,7 @@ class Header {
             <li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
             <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
             <li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-            <li><a href="#">LOGIN</a></li>
+            <li><a href="#" onclick="">LOGIN</a></li>
             <li><a href="#">SIGN UP</a></li>
         </ul>`;
 
